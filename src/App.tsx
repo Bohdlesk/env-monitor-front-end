@@ -1,7 +1,6 @@
 import {AppContextProvider} from "@/context/AppContext";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {Home} from "@/pages/home";
-import AuthLayout from "@/pages/auth/layout.tsx";
 import LoginPage from "@/pages/auth/login/page.tsx";
 import RegisterPage from "@/pages/auth/register/page.tsx";
 
