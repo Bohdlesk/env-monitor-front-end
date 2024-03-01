@@ -58,7 +58,7 @@ function RegisterForm() {
                                        <FormItem>
                                            <FormLabel>Name</FormLabel>
                                            <FormControl>
-                                               <Input placeholder="Jhone Doe" {...field}/>
+                                               <Input placeholder="John Doe" {...field}/>
                                            </FormControl>
                                            <FormMessage/>
                                        </FormItem>)
