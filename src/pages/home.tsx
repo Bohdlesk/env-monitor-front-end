@@ -2,7 +2,9 @@ import {Header} from "@/components/header.tsx";
 
 function Home() {
     return <>
-        <Header/>
+        <div className="flex-col">
+            <Header/>
+        </div>
     </>
 }
 
