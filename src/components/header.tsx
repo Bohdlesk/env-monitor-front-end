@@ -7,7 +7,7 @@ const Header = () => {
             <div className="flex justify-between">
                 <div className="flex items-center">
                     <Link to="/" className="flex items-center">
-                        <img src="logo.svg" alt="Tmon" width="60" height="60"
+                        <img src="logo.svg" alt="Enviro Monitor" width="50" height="50"
                              className="d-inline-block text-center" />
                         <span className="ml-2 font-semibold text-[#252C32] text-center">Enviro Monitor</span>
                     </Link>
