@@ -1,5 +1,6 @@
 import {Button} from "@/components/ui/button.tsx";
 import {Link} from "react-router-dom";
+import { MainIcon } from '@/components/main-icon.tsx';
 
 const Header = () => {
     return <div>
@@ -7,8 +8,7 @@ const Header = () => {
             <div className="flex justify-between">
                 <div className="flex items-center">
                     <Link to="/" className="flex items-center">
-                        <img src="logo.svg" alt="Enviro Monitor" width="50" height="50"
-                             className="d-inline-block text-center" />
+                        <MainIcon/>
                         <span className="ml-2 font-semibold text-[#252C32] text-center">Enviro Monitor</span>
                     </Link>
                 </div>
