@@ -1,11 +1,11 @@
-import {Header} from "@/components/header.tsx";
+import { Header } from '@/components/header.tsx';
 
 function Home() {
-    return <>
-        <div className="flex-col">
-            <Header/>
-        </div>
-    </>
+  return <>
+    <div className="flex-col">
+      <Header />
+    </div>
+  </>;
 }
 
-export {Home}
+export { Home };

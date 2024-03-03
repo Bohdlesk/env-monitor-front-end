@@ -1,18 +1,18 @@
-import {Button} from "@/components/ui/button.tsx";
-import {Link} from "react-router-dom";
+import { Button } from '@/components/ui/button.tsx';
+import { Link } from 'react-router-dom';
 
 interface BackButtonProps {
-    label: string,
-    href: string
+  label: string,
+  href: string
 }
 
-const BackButton = ({label, href}: BackButtonProps) => {
-    return (
-        <Button variant="link" className="font-normal w-full" size="sm" asChild>
-            <Link to={href}>{label}</Link>
-        </Button>
-    )
-}
+const BackButton = ({ label, href }: BackButtonProps) => {
+  return (
+    <Button variant="link" className="font-normal w-full" size="sm" asChild>
+      <Link to={href}>{label}</Link>
+    </Button>
+  );
+};
 
 
-export default BackButton
+export default BackButton;
